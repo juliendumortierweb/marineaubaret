@@ -17,6 +17,8 @@
                     $commentController->editComment($_GET['id']);
                 }
                 break;
+            case 'saveComment':
+                break;
         	default:
         		$postControler -> getPosts();
         		break;
